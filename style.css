@@ -1,0 +1,81 @@
+body { 
+  height: 100%; background: linear-gradient(90deg, #e1e4e8 50%, #ff9100 50%); 
+}
+
+h2{
+  text-align: center;
+  background-color: #403b3b;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 70px;
+  font-family: monospace;
+  padding: 10px;
+  width: 40%;
+}
+
+#calc_interface{
+  margin-top: 90px;
+  padding: 30px;
+  background-color: #403b3b;
+  border-radius: 20px;
+  width: 50%;
+}
+
+button{
+  background-color: #c2fbd7;
+  border-radius: 8px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 23px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+#result_display{
+  width: 50%;
+  margin-top: 50px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-right: 10px;
+  color: whitesmoke;
+  padding-bottom: 20px;
+  text-align: center;
+  border-color: red;
+  border-radius: 10px;
+  background-color: #3d404f;
+  animation-name: colorchange;
+  animation-duration: 4s;
+}
+
+@keyframes colorchange {
+  from {background-color: #e1e4e8;}
+  to {background-color: #48a868;}
+}
+
+.ib{
+  margin: 10px;
+  box-sizing: border-box;
+  height: 40px;
+  font-family: monospace;
+  color: red;
+  font-size: 15px;
+  border: 2px solid #48a868;
+  border-radius: 4px;
+}
