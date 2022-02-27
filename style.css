@@ -47,7 +47,7 @@ button{
   transform: scale(1.05) rotate(-1deg);
 }
 
-#result_display{
+.display{
   width: 50%;
   margin-top: 50px;
   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
